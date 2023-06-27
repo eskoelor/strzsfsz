@@ -1,0 +1,651 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+margin: 0;
+width: 100vw;
+
+
+
+}
+  
+.nest-trans {
+  z-index: -1; 
+  position: absolute;
+  width: auto;
+  height: auto;
+  ;
+
+}
+
+body {
+  background-color: orangered;
+
+}
+
+
+
+
+.centerthis {
+background-image: url("../img/nest-trans.png");
+background-size: cover;
+
+  justify-content: center; /* adjusted */
+  align-items: center;
+  position: absolute;
+}
+
+/*      GRID GRID GRID  */
+
+
+
+.grid-wrapper {
+  
+  
+    display: grid;
+    grid-template-columns: 19.5% 19.5% 22% 19.5% 19.5% ;
+    
+    
+    align-items: center;
+    place-items: center;
+    padding-bottom: 8%;
+    margin-left: ;
+
+}
+
+
+
+.bolt_block {
+place-items: center;
+margin-left: 24%;
+margin-bottom: 26%;
+}
+
+.btn-end {
+  width: 29%;
+  height: auto;
+}
+
+
+
+
+.end-logos {
+  width: 100%;
+}
+
+.tojas_block {
+
+}
+
+.btn-end-egg {
+  width: 17.5%;
+  height: auto;
+  margin-left: 57%;
+  margin-bottom: 20% ;
+}
+
+
+.nest-logo {
+  margin-top: 7%;
+  width: 100%;
+}
+
+
+
+.middle-logos {
+width: 100%;
+}
+
+.btn {
+  width: 48%;
+}
+
+.btn-menekultek {
+  width: 37%;
+  margin-left: 50% ;
+ 
+}
+
+/* END GRID END GRID END GRID */
+
+.team {
+/*display: grid;
+grid-template-columns: 1fr;*/
+text-align: center;
+height: 100vh;
+  background-color: blue;
+  z-index: -2;
+  /*position: relative;*/
+background-image: url("../img/teamwork-hand.jpg");
+
+
+/*background-size: 100% auto;*/
+
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position-x: center;
+
+  max-width: ;
+}
+
+
+.rolunk-btn {
+  background-color: aqua;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+}
+
+
+ .link-a-btn{ /*[id^=openModal]*/
+display: inline-block;
+  cursor: pointer;
+
+z-index: 777777;
+
+  opacity: 70%;
+  background-color: rgba(0, 128, 0, 0.763);
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 200;
+  font-size: 44px;
+  letter-spacing: 2px;
+  text-decoration: none;
+padding: 0.2%;
+padding-left: 0.7% ;
+padding-right: 0.7% ;
+color: white;
+border: dashed;
+border-radius: 5.0em;
+
+margin-top: 35%;
+/*position: absolute;*/
+/* FONTOS CENTER*/
+left: 50%;
+top: 8%;
+transform: translate(-2%, -50%);
+
+
+ /* padding: .5em 1em;
+  padding: .5em 1em;*/
+
+
+  /*
+  padding: 5px 10px;
+  background-color: rgba(0, 128, 0, 0.763);
+*/
+
+ /* width: 14%;
+  height: 5%;*/
+
+  /*
+  border-radius: 120px;
+ 
+border-bottom: 10px;
+align-items: center;
+justify-content: center;
+/*width: fit-content;
+height: fit-content;*/
+
+
+/*position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+*/
+
+}
+
+/*.rolunk-png {
+  width: 42%; /*80%;*/
+ /*opacity: 70%;
+ margin-left: 5%;
+
+}*/
+
+/*------------------------------------TERMÉKEINK-------------------------------------------*/
+
+.termekeink {
+  height: 100vh;
+  background-color: blue;
+  
+  position: relative;
+background-image: url("https://images.unsplash.com/photo-1511836536898-6d6f1b8f6948?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+/*background-size: 100% auto;*/
+background-size: cover;
+background-repeat: no-repeat;
+background-position-x: center;
+
+  max-width: ;
+}
+
+
+/*...........termékeink töltelék...................*/
+.flex-container {
+  display: table;
+
+flex-direction: row;
+}
+
+.button-container {
+ 
+  /*margin-left: 100%;*/
+  /*background-color: rgba(128, 0, 128, 0.774);*/
+  height: 100vh;
+  display: table-cell;
+vertical-align: middle;
+
+}
+
+.btn-bolt {
+float: left;
+/*margin-top: 40vh;*/
+margin-left: 15vw;
+
+justify-self: center;
+
+  /*position: absolute;*/
+
+ 
+/* top: 50%;
+left: 50%;*/
+/*transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);*/
+
+width: 142px;
+
+height: 52px;
+display: flex;
+flex-direction: row;
+background: linear-gradient(90deg, rgba(7,94,31,1) 0%, rgba(234,255,0,1) 100%);
+color: white;
+font-size: 19px;
+/*padding: 12px 24px;*/
+border: none;
+cursor: pointer;
+border-radius: 5px;
+z-index: ;
+transition: width 0.5s;
+}
+
+.p-bolt {
+margin-top: 15.6px;
+margin-left: 20px;/*11px;*/
+
+
+}
+
+.wheelchair-icon {
+width: 34px;/*25px; */
+height: 26px;/*28px;*/
+margin-top: 15px;
+padding-left: 15px;
+display: none;
+}
+
+.bolt-icon {
+width: 48px; /*41px; */
+height: 34px; /*34px; */
+margin-top: 9.5px;
+
+padding-left: 13px; /*margin volt itt*/
+padding-right: 4px;
+
+}
+
+.btn-bolt:hover .wheelchair-icon {
+display: block;
+transition: width 2s;
+
+}
+
+.btn-bolt:hover {
+width: 180px;
+
+
+
+}
+
+.image-container-stork {
+width: ;
+height: 100vh;
+/*background-color: rgba(0, 255, 255, 0.508);*/
+
+
+display: table-cell;
+vertical-align: middle;
+}
+
+.stork-img {
+  align-items: center;
+  margin-top: %;
+  width: 80%;
+  float: right;
+  justify-content: center;
+  
+}
+/*...........termékeink töltelék...................*/
+
+/* ------------------------------ESEMÉNYEK ÉS GALÉRIA-------------------------------*/
+
+.events-n-gallery {
+  height: 100vh;
+  background-color: blue;
+  /*z-index: -2;*/
+  position: relative;
+background-image: url("https://images.unsplash.com/photo-1528200575999-1853e416cf07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+/*background-size: 100% auto;*/
+background-size: cover;
+background-repeat: no-repeat;
+background-position-x: center;
+position: relative;
+  max-width: ;
+
+
+
+}
+
+
+.titles {
+  display: flex;
+  flex-direction: row;
+ 
+ 
+}
+
+h1 {
+  margin-top: 2%; 
+  margin-bottom: 3%;
+  font-family: 'Exo 2', sans-serif;
+  text-decoration: underline;
+  color: rgb(17, 91, 33);
+  justify-content: center;
+}
+
+.wrapper-events-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8%;
+}
+
+
+.fb-wrapper {
+  
+}
+
+
+.fb-post {
+/*margin-left: 5%;*/
+
+cursor: pointer;
+display: flex;
+
+
+
+
+
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+figure a {
+  color: black;
+  text-decoration: none;
+}
+
+figcaption {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: rgba(255,255,255,.5);
+  padding: .2em .5em;
+  justify-self: start;
+}
+
+.container {
+  column-count: 3;
+  column-gap: 10px;
+  width: 50%;
+ /* margin-left: 9%;*/
+}
+
+/*---------------------------------------------------------FOOTER--------------------------------------------------------*/
+
+footer {
+  padding: auto 20px 30px;
+  background: rgb(54, 36, 1);
+  color: beige;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragr-main {
+  text-align: center;
+  padding-top: 9px;;
+  padding-bottom:;
+}
+
+.contact-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+
+.adress1 {
+  padding-top: 11px ;
+  padding-bottom: 11px;;
+  
+}
+
+.adress2 {
+  padding-top: 11px ;
+  padding-bottom: 11px;
+}
+
+.contact-style {
+  color: rgb(116, 116, 36);
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------          ------modals------------           -------*/
+
+
+[id^=modal-rolunk] {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 7777777777;
+}
+[id^=modal-rolunk]:target {
+  display: block;
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+.popup {
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+ 
+  
+}
+.popup__overlay {
+  position: absolute;
+  z-index: 100;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000b3;
+  overflow-y:auto;
+}
+.popup__wrapper {
+  background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 111;
+  width: /*85%;*/
+  max-width: 1600px;
+  height: 100vh;
+  max-height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 11px 0px 14px 1px; /*58px 32px 32px 32px;*/
+  background: rgb(253,255,190);
+  background: linear-gradient(0deg, rgba(253,255,190,1) 0%, rgba(255,255,255,1) 100%);
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y:auto;
+  
+  
+}
+.popup__close {
+  /*position: absolute;*/
+ /* top: 16px;
+  right: 26px;*/
+ display: inline-block;
+  margin-top: 20px;
+  bottom: 16px;
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.763);
+}
+
+
+
+
+
+
+.modal-rolunk-title {
+font-size: 32px;
+}
+
+.lakok-modal-description {
+  font-size: 17px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  
+}
+
+
+.wrap-image {
+  float: right; 
+  margin: 5px;
+
+  /*-webkit-box-shadow: -5px 5px 5px 0px rgba(174,219,151,1);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(174,219,151,1);
+  box-shadow: -5px 5px 5px 0px rgba(174,219,151,1);*/
+  -webkit-box-shadow: 6px -10px 18px -4px rgba(45,163,67,1);
+  -moz-box-shadow: 6px -10px 18px -4px  rgba(45,163,67,1);
+  box-shadow: 6px -10px 18px -4px rgba(45,163,67,1);
+}
+
+.image-modal-main {
+  height: 30%;
+
+
+
+}
+/*----------------   AI       ------modal rólunk------------    AI       -------*/
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
